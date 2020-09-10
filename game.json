@@ -1,0 +1,83 @@
+{
+  "passages": [
+    {
+      "text": "The prison yard is becoming over ran by zombies, escape to freedom.\n\n[[Go to the roof->The Roof]]\n[[Go to the parking lot->The Parking Lot]]\n[[Go to the car->The Car]]",
+      "links": [
+        {
+          "name": "Go to the roof",
+          "link": "The Roof",
+          "pid": "2"
+        },
+        {
+          "name": "Go to the parking lot",
+          "link": "The Parking Lot",
+          "pid": "3"
+        },
+        {
+          "name": "Go to the car",
+          "link": "The Car",
+          "pid": "4"
+        }
+      ],
+      "name": "The Prison",
+      "pid": "1",
+      "position": {
+        "x": "412",
+        "y": "189"
+      }
+    },
+    {
+      "text": "You are on the roof\n\n[[Go back to the prison->The Prison]] ",
+      "links": [
+        {
+          "name": "Go back to the prison",
+          "link": "The Prison",
+          "pid": "1"
+        }
+      ],
+      "name": "The Roof",
+      "pid": "2",
+      "position": {
+        "x": "262",
+        "y": "339"
+      }
+    },
+    {
+      "text": "You are in the parking lot\n\n[[Go back to the prison->The Prison]] ",
+      "links": [
+        {
+          "name": "Go back to the prison",
+          "link": "The Prison",
+          "pid": "1"
+        }
+      ],
+      "name": "The Parking Lot",
+      "pid": "3",
+      "position": {
+        "x": "412",
+        "y": "339"
+      }
+    },
+    {
+      "text": "You are in the car\n\n[[Go back to the prison->The Prison]] ",
+      "links": [
+        {
+          "name": "Go back to the prison",
+          "link": "The Prison",
+          "pid": "1"
+        }
+      ],
+      "name": "The Car",
+      "pid": "4",
+      "position": {
+        "x": "562",
+        "y": "339"
+      }
+    }
+  ],
+  "name": "Escape the Zombies",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "F3ACD055-E487-43C5-AB70-2D42D41036B1"
+}
